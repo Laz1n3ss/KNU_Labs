@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1614425083 source:d:\programdata\github\knu_labs\assignmenttask\hungary.cpp
+	<iostream>
+	<iomanip>
+	<vector>
+	"method.h"
+
+1614425051 d:\programdata\github\knu_labs\assignmenttask\method.h
+
+1614425105 source:d:\programdata\github\knu_labs\assignmenttask\mack.cpp
+	<iostream>
+	<iomanip>
+	<vector>
+	"method.h"
+
