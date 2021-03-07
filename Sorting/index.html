@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AlgoViz</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo-block">
+      Comparison sorts
+    </div>
+  </div>
+  <div class="content">
+    <div class="visualisation">
+      <svg id="visualisation" viewBox="0 0 1000 500" preserveAspectRatio="none">
+      </svg>
+    </div>
+    <div class="controls">
+      <div class="">
+        <label for="operations-count">Operaions count</label>
+        <p id="operations-count">---</p>
+      </div>
+      <input id="array-size" type="number" value="20" placeholder="Array size">
+      <input type="button" value="Generate array"  onclick="GenerateArray()">
+
+      <select id="sort-type">
+        <option value="BubbleSort">Bubble sort</option>
+        <option value="QuickSort">Quicksort</option>
+        <option value="InsertionSort">Insertion sort</option>
+        <option value="SelectionSort" selected>Selection sort</option>
+      </select>
+      <input type="button" value="Sort array"  onclick="SortArray()">
+      <div class="explanation">
+        Quicksort
+        <div class="explanation-text">
+            <b>Quicksort</b> is a <em>divide and conquer algorithm</em>.
+            <br>
+            It first divides the input array into two smaller sub-arrays:
+              the low elements and the high elements.
+            <br>
+            It then recursively sorts the sub-arrays.
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/sorts.js"></script>
+  <script type="text/javascript" src="js/visual.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
