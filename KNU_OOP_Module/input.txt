@@ -1,0 +1,8 @@
+THIS is test file
+
+AAAAA
+-----
+BBBBB
+IIIII
+%%%%%
+^^^^^
