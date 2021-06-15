@@ -17,3 +17,6 @@ jobs:
     - uses: egor-tensin/setup-mingw@v2
       with:
         platform: x64
+    - run: |
+          $flags = '-std=c++14','-o','foo','foo.cpp'
+          & '${{ steps.setup.outputs.gxx }}' $flags
